@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(48, 114, 255);
+}
+.container{
+  display:  flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.img{
+  max-width: 20rem;
+  margin-top: 5rem;
+}
+
+.crono{
+  margin-top: -14rem;
+  font-size: 6rem;
+  color: white;
+}
+.area-botao{
+  margin-top: 10rem;
+  font-size: 2rem;
+  display: flex;
+  gap: 3rem;
+  cursor:  pointer;
+
+ 
+}
+.botao{
+  width: 6rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 0.5rem;
+  opacity: 0.3s;
+}
+
+.botao:hover{
+  background-color: rgb(200, 200, 200);
+  opacity: 70%;
+}
